@@ -1,15 +1,9 @@
 .catalog {
-  @extend %flex-center;
-
-  &__wrapper {
-    @extend %flex-between;
-    flex-wrap: wrap;
-    width: $wrapper-width;
-  }
-  
-  &__card {
-    margin-bottom: 50px;
-  }
+  display: grid;
+  grid-template-columns: repeat(4, $card-width);
+  justify-content: center;
+  row-gap: 50px;
+  column-gap: 48px;
 }
 
 .page__catalog {
