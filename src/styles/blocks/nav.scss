@@ -27,6 +27,7 @@
 
     &:hover {
       color: $page-color;
+      transition: all 400ms;
     }
 
     &:active {

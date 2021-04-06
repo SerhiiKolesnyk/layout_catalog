@@ -14,5 +14,6 @@
   &:hover {
     background-color: #fff;
     color: $page-color;
+    transition: all 400ms;
   }
 }
